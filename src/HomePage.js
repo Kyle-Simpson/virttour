@@ -10,7 +10,7 @@ export class HomePage extends Component {
                 <p>Welcome to the University of Washington</p>
                 <p>To begin the Campus Tour, make your way to the Husky Union Building and click Begin</p>
                 <Router>
-                    <Link to="/hub"><button className="btn btn-primary">Begin</button></Link>
+                    <Link to="/georgewashington"><button className="btn btn-primary">Begin</button></Link>
                 </Router>
             </div>
         );

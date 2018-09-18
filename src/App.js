@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { HomePage } from "./HomePage";
 import { HashRouter as Router, Route } from 'react-router-dom';
-import {HubStop} from "./HubStop";
-import {NextStop} from "./NextStop";
-// import {QuadStop} from "./QuadStop";
+import {GW} from "./GW";
+import {GWtoRS} from "./GWtoRS";
+import {RS} from "./RS";
+import {RStoSUZZ} from "./RStoSUZZ";
+import {SUZZ} from "./SUZZ";
 import './App.css';
 
 class App extends Component {
@@ -13,9 +15,11 @@ class App extends Component {
         <Router>
           <div>
             <Route exact path="/" component={HomePage} />
-            <Route path="/hub" component={HubStop} />
-            <Route path="/nextStop" component={NextStop} />
-            {/* <Route path="/quad" component={QuadStop} /> */}
+            <Route path="/georgewashington" component={GW} />
+            <Route path="/GWtoRS" component={GWtoRS} />
+            <Route path="/redsquare" component={RS} />
+            <Route path="/RStoSUZZ" component={RStoSUZZ} />
+            <Route path="/suzzalo" component={SUZZ} />
           </div>
         </Router>
       </div>
