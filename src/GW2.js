@@ -29,7 +29,7 @@ export class GW2 extends Component {
         return (
             <div>
                 <h1 style={{'font-family':'HeaderFont'}}>{this.state.stopName}</h1>
-                <audio controls>
+                <audio controls controlsList="nodownload">
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/11%20GW%20Return%20V3_mixdown_FNL.mp3?alt=media&token=0e84a785-cfa9-4acd-a716-1d34e7b05906"></source>
                 </audio>
                 <Router>

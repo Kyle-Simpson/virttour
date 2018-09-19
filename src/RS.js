@@ -28,7 +28,7 @@ export class RS extends Component {
         return (
             <div>
                 <h1 style={{'font-family':'HeaderFont'}}>{this.state.stopName}</h1>
-                <audio controls>
+                <audio controls controlsList="nodownload">
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/2%20Red%20Square%20v7_mixdown_FNL.mp3?alt=media&token=444b68ec-4be9-468e-9280-9a71e9e07061"></source>
                 </audio>
                 <Router>
