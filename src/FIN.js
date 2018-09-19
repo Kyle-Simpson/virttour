@@ -5,7 +5,7 @@ export class FIN extends Component {
     render() {
         return (
             <div>
-                <h1>Thank You!</h1>
+                <h1 style={{'font-family':'HeaderFont'}}>Thank You!</h1>
                 
                 <Router>
                     <div>

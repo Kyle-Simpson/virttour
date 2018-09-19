@@ -1,0 +1,13 @@
+@font-face {
+  font-family: HeaderFont;
+  src:url("./fonts/EncodeSansNormal-900-Black.ttf");
+}
+
+@font-face {
+    font-family: BodyFont;
+    src:url("./fonts/Open Sans regular.ttf");
+}
+
+.button {
+    font-family:BodyFont;
+}

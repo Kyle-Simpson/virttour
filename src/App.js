@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { HomePage } from "./HomePage";
 import { HashRouter as Router, Route } from 'react-router-dom';
+import './App.css';
+import { HomePage } from "./HomePage";
 import { GW } from "./GW";
 import { GWtoRS } from "./GWtoRS";
 import { RS } from "./RS";
@@ -25,7 +26,6 @@ import { GW2 } from "./GW2";
 import { GW2toWC } from "./GW2toWC";
 import { WC } from "./WC";
 import { FIN } from "./FIN";
-import './App.css';
 
 class App extends Component {
   render() {

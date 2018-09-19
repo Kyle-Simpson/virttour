@@ -28,7 +28,7 @@ export class WC extends Component {
     render() {
         return (
             <div>
-                <h1>{this.state.stopName}</h1>
+                <h1 style={{'font-family':'HeaderFont'}}>{this.state.stopName}</h1>
                 <audio controls>
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/12%20West%20Campus%20v4_mixdown_FNL.mp3?alt=media&token=500dfe09-8213-4f70-80c6-ffc71d1b5b23"></source>
                 </audio>
