@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Link } from 'react-router-dom';
-import "./NextStop.css";
 
 export class RStoSUZZ extends Component {
     render() {
