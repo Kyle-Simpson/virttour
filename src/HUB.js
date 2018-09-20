@@ -28,7 +28,7 @@ export class HUB extends Component {
     render() {
         return (
             <div>
-                <h1 style={{'font-family':'HeaderFont'}}>{this.state.stopName}</h1>
+                <h1 style={{'font-family':'HeaderFont', 'color':'white'}}>{this.state.stopName}</h1>
                 <audio controls controlsList="nodownload">
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/7%20HUB%20v5_mixdown_FNL.mp3?alt=media&token=0ad8c33d-f977-462a-9829-758de59cd8d1"></source>
                 </audio>

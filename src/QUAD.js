@@ -28,7 +28,7 @@ export class QUAD extends Component {
     render() {
         return (
             <div>
-                <h1 style={{'font-family':'HeaderFont'}}>{this.state.stopName}</h1>
+                <h1 style={{'font-family':'HeaderFont', 'color':'white'}}>{this.state.stopName}</h1>
                 <audio controls controlsList="nodownload">
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/9%20Quad%20v4_mixdown_FNL.mp3?alt=media&token=3cda97f3-01b7-4b40-bee6-f403307973ec"></source>
                 </audio>
