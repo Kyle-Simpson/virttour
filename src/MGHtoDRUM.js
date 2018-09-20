@@ -11,7 +11,7 @@ export class MGHtoDRUM extends Component {
                 <Router>
                     <div className="buttonFloat">
                         <Link to="/marygates"><button className="btn btn-primary">Previous Stop</button></Link>
-                        <Link to="/drumheller"><button className="btn btn-primary">Next Stop</button></Link>
+                        <Link to="/drumheller"><button className="btn btn-primary">Continue</button></Link>
                     </div>
                 </Router>
             </div>
