@@ -29,7 +29,7 @@ export class RV extends Component {
         return (
             <div>
                 <h1 style={{'font-family':'HeaderFont'}}>{this.state.stopName}</h1>
-                <audio controls>
+                <audio controls controlsList="nodownload">
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/6%20Rainier%20Vista%20v5_mixdown_FNL.mp3?alt=media&token=1c48fc05-3a08-4f29-b3c5-d180de636d4e"></source>
                 </audio>
                 <Router>

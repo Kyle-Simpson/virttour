@@ -29,7 +29,7 @@ export class DEN extends Component {
         return (
             <div>
                 <h1 style={{'font-family':'HeaderFont'}}>{this.state.stopName}</h1>
-                <audio controls>
+                <audio controls controlsList="nodownload">
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/10%20Denny%20Yard%20v3_mixdown_FNL.mp3?alt=media&token=7d2fb41b-c3e5-4c55-9b7b-65a73bf880ec"></source>
                 </audio>
                 <Router>

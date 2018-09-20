@@ -29,8 +29,8 @@ export class GW extends Component {
         return (
             <div>
                 <h1 style={{'font-family':'HeaderFont'}}>{this.state.stopName}</h1>
-                <audio controls>
-                    <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/1%20GW%20Statue%20-%20Intro%20v7_mixdown_FNL.mp3?alt=media&token=b3181829-8b66-485b-b8f1-6af6d97a5a0a"></source>
+                <audio controls controlsList="nodownload">
+                    <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/1%20GW%20Statue%20-%20Intro%20v7_mixdown_FNL.mp3?alt=media&token=7b80ad12-648d-4f1e-a397-33a3f01d89e0"></source>
                 </audio>
                 <Router>
                     <div>

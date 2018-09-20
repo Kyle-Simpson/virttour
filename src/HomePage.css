@@ -8,6 +8,11 @@
     src:url("./fonts/Open Sans regular.ttf");
 }
 
+@font-face {
+    font-family: SubHeaderFont;
+    src:url("./fonts/Fontfabric - UniSansRegular.otf");
+}
+
 .button {
     font-family:BodyFont;
 }
