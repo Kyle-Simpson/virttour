@@ -34,8 +34,8 @@ export class WC extends Component {
                 </audio>
                 <Router>
                     <div>
-                        <Link to="/GW2toWC"><button className="btn btn-primary">Previous Stop</button></Link>
-                        <Link to="fin"><button className="btn btn-primary">Finish</button></Link>
+                        <Link to="/GW2toWC"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Previous Stop</button></Link>
+                        <Link to="fin"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Finish</button></Link>
                     </div>
                 </Router>
             </div>

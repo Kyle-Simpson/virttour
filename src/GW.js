@@ -34,8 +34,8 @@ export class GW extends Component {
                 </audio>
                 <Router>
                     <div>
-                        <Link to="/"><button className="btn btn-primary">Back to Intro</button></Link>
-                        <Link to="/GWtoRS"><button className="btn btn-primary">Next Stop</button></Link>
+                        <Link to="/"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Back to Intro</button></Link>
+                        <Link to="/GWtoRS"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Next Stop</button></Link>
                     </div>
                 </Router>
             </div>

@@ -34,8 +34,8 @@ export class DEN extends Component {
                 </audio>
                 <Router>
                     <div>
-                        <Link to="/QUADtoDEN"><button className="btn btn-primary">Previous Stop</button></Link>
-                        <Link to="/DENtoGW2"><button className="btn btn-primary">Next Stop</button></Link>
+                        <Link to="/QUADtoDEN"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Previous Stop</button></Link>
+                        <Link to="/DENtoGW2"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Next Stop</button></Link>
                     </div>
                 </Router>
             </div>

@@ -9,7 +9,7 @@ export class FIN extends Component {
                 
                 <Router>
                     <div>
-                        <Link to="/westcampus"><button className="btn btn-primary">Previous Stop</button></Link>
+                        <Link to="/westcampus"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Previous Stop</button></Link>
                     </div>
                 </Router>
             </div>

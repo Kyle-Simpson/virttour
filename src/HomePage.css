@@ -13,10 +13,6 @@
     src:url("./fonts/Fontfabric - UniSansRegular.otf");
 }
 
-.button {
-    font-family:BodyFont;
-}
-
 body {
     color:white;
     background-image: url("./imgs/Logo_Background.jpg");

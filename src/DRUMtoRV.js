@@ -10,8 +10,8 @@ export class DRUMtoRV extends Component {
 
                 <Router>
                     <div className="buttonFloat">
-                        <Link to="/drumheller"><button className="btn btn-primary">Previous Stop</button></Link>
-                        <Link to="/raniervista"><button className="btn btn-primary">Continue</button></Link>
+                        <Link to="/drumheller"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Previous Stop</button></Link>
+                        <Link to="/raniervista"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Continue</button></Link>
                     </div>
                 </Router>
             </div>

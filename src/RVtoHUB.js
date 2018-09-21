@@ -10,8 +10,8 @@ export class RVtoHUB extends Component {
 
                 <Router>
                     <div className="buttonFloat">
-                        <Link to="/raniervista"><button className="btn btn-primary">Previous Stop</button></Link>
-                        <Link to="/huskyunionbuilding"><button className="btn btn-primary">Continue</button></Link>
+                        <Link to="/raniervista"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Previous Stop</button></Link>
+                        <Link to="/huskyunionbuilding"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Continue</button></Link>
                     </div>
                 </Router>
             </div>

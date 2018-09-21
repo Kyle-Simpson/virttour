@@ -34,8 +34,8 @@ export class DRUM extends Component {
                 </audio>
                 <Router>
                     <div>
-                        <Link to="/MGHtoDRUM"><button className="btn btn-primary">Previous Stop</button></Link>
-                        <Link to="/DRUMtoRV"><button className="btn btn-primary">Next Stop</button></Link>
+                        <Link to="/MGHtoDRUM"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Previous Stop</button></Link>
+                        <Link to="/DRUMtoRV"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Next Stop</button></Link>
                     </div>
                 </Router>
             </div>

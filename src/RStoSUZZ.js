@@ -10,8 +10,8 @@ export class RStoSUZZ extends Component {
 
                 <Router>
                     <div className="buttonFloat">
-                        <Link to="/redsquare"><button className="btn btn-primary">Previous Stop</button></Link>
-                        <Link to="/suzzalo"><button className="btn btn-primary">Continue</button></Link>
+                        <Link to="/redsquare"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Previous Stop</button></Link>
+                        <Link to="/suzzalo"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Continue</button></Link>
                     </div>
                 </Router>
             </div>
