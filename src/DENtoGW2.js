@@ -6,6 +6,7 @@ export class DENtoGW2 extends Component {
     render() {
         return (
             <div className="imgbox">
+                {/* Static image file upload */}
                 <img className="center-fit" src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/DENtoGW2.png?alt=media&token=3e3f32cd-7ea8-46c9-a84f-0587ac708a72" alt="map"></img>
 
                 <Router>

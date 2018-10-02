@@ -1,15 +1,18 @@
 @font-face {
   font-family: HeaderFont;
+  /* Source font from downloaded file */
   src:url("./fonts/EncodeSansNormal-900-Black.ttf");
 }
 
 @font-face {
     font-family: BodyFont;
+    /* Source font from downloaded file */
     src:url("./fonts/Open Sans regular.ttf");
 }
 
 @font-face {
     font-family: SubHeaderFont;
+    /* Source font from downloaded file */
     src:url("./fonts/Fontfabric - UniSansRegular.otf");
 }
 

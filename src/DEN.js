@@ -12,28 +12,32 @@ export class DEN extends Component {
         }
     }
 
-    componentWillMount() {
-        // The way I source the stop name, location, and audio file will change once on the Admissions server
-        let dbRef = firebase.database().ref('DEN');
-        dbRef.on('value', (snapshot) => {
-            let data = snapshot.val();
-            this.setState({
-                audioFile: data.audioFile,
-                stopLocation: data.stopLocation,
-                stopName: data.stopName
-            })
-        })
-    }
+    // componentWillMount() {
+    //     // The way I source the stop name, location, and audio file will change once on the Admissions server
+    //     let dbRef = firebase.database().ref('DEN'); 
+    //     dbRef.on('value', (snapshot) => {
+    //         let data = snapshot.val();
+    //         this.setState({
+    //             audioFile: data.audioFile,
+    //             stopLocation: data.stopLocation,
+    //             stopName: data.stopName
+    //         })
+    //     })
+    // }
 
     render() {
         return (
             <div>
-                <h1 style={{'font-family':'HeaderFont', 'color':'white'}}>{this.state.stopName}</h1>
+                {/* Styles to conform to UW branding.  See HomePage.css for specific branding guidelines */}
+                <h1 style={{'font-family':'HeaderFont', 'color':'white'}}>Denny Hall</h1>
+                {/* Static audio file upload - do not allow download */}
                 <audio controls controlsList="nodownload">
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/10%20Denny%20Yard%20v3_mixdown_FNL.mp3?alt=media&token=7d2fb41b-c3e5-4c55-9b7b-65a73bf880ec"></source>
                 </audio>
+                {/* Router tag needed for buttons to link to the correct page */}
                 <Router>
                     <div>
+                        {/* Link tags make the buttons links to the correct pages based on the endpoints specified in App.js */}
                         <Link to="/QUADtoDEN"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Previous Stop</button></Link>
                         <Link to="/DENtoGW2"><button className="btn btn-primary" style={{'font-family':'BodyFont'}}>Next Stop</button></Link>
                     </div>
