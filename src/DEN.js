@@ -1,29 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Link } from 'react-router-dom';
-import firebase from 'firebase';
 
 export class DEN extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            audioFile: "",
-            stopLocation: "",
-            stopName: ""
-        }
-    }
-
-    // componentWillMount() {
-    //     // The way I source the stop name, location, and audio file will change once on the Admissions server
-    //     let dbRef = firebase.database().ref('DEN'); 
-    //     dbRef.on('value', (snapshot) => {
-    //         let data = snapshot.val();
-    //         this.setState({
-    //             audioFile: data.audioFile,
-    //             stopLocation: data.stopLocation,
-    //             stopName: data.stopName
-    //         })
-    //     })
-    // }
 
     render() {
         return (

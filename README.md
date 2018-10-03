@@ -13,10 +13,10 @@ In test, the website was built using React, React Router, and Firebase.  Firebas
 
 The .js files are relatively flat and are relatively technically simple.  There are 3 types of .js files found
 1. Introduction & Conclusion pages that bookend the application
-  - HomePage.js
-  - Fin.js
+    - HomePage.js
+    - Fin.js
 2. Audio content pages that present the tour
-  - Den.js
+  - Den.js (fully documented)
   - Drum.js
   - GW.js
   - GW2.js
@@ -29,7 +29,7 @@ The .js files are relatively flat and are relatively technically simple.  There 
   - WC.js
   - Wet.js
 3. Connecting pages that display maps
-  - DENtoGW2.js
+  - DENtoGW2.js (fully documented)
   - DRUMtoRV.js
   - GW2toWC.js
   - GWtoRS.js
@@ -40,3 +40,13 @@ The .js files are relatively flat and are relatively technically simple.  There 
   - RVtoHUB.js
   - SUZZtoMGH.js
   - WETtoQUAD.js
+
+The App.js file sets the endpoints and initialized the webpage instance.
+
+The intro and conclusion pages have been fully documented, and one of each of the content and connection pages have been fully documented.  Each other .js file is identical (except for slightly different source urls), and can be assumed to be identical.
+
+
+# Notes from the Author
+One large note I want to make is about the technical complexity of this website.  The choice to introduce large amounts of redundancy into the component classes was an intentional design choice made specifically for the workspace I was developing for.  I was creating this application for an office that does not employ any trained developers, and thus I significantly decreased the reusability and refactoring of individual components.  I very easily could have written half a dozen components that would dynamically source all audio files, stop titles and locations, and produce the maps based on the last visited stop, but chose not to in order to make future maintenance easier for my non-developer coworkers.
+
+To see a higher complexity project of mine, see the following repo: https://github.com/KSJI/alpha/tree/dev/src.
