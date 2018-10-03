@@ -9,7 +9,8 @@ The tour is narrated by two former tour guides, with quotes from various guests.
 
 
 # Technical Documentation
-In test, the website was built using React, React Router, and Firebase.  Firebase is/will be phased out when the application is transitioned onto the Admissions server.
+## Javascript and HTML
+In test, the website was built using React, React Router, and Firebase.  Firebase is/will be phased out when the application is transitioned onto the Admissions server.  The application was developed using mobile-first design principles and is optimized for smaller screen sizes.
 
 The .js files are relatively flat and are relatively technically simple.  There are 3 types of .js files found
 1. Introduction & Conclusion pages that bookend the application
@@ -44,6 +45,12 @@ The .js files are relatively flat and are relatively technically simple.  There 
 The App.js file sets the endpoints and initializes the webpage instance.
 
 The intro and conclusion pages have been fully documented, and one of each of the content and connection pages have been fully documented.  Each other .js file is identical to those with similar purposes (except for slightly different source urls).
+
+## CSS
+The primary function of .css files in this application is to load the maps.  Each stop-connector component has its own .css file that almost exclusively serves to place the map images and reposition the buttons at the bottom of the window.  CSS is used minimally throughout the application since there are so many variants of mobile screen sizes, so a certain degree of imperfection is expected on some pages depending on the screen size of the viewing device.
+
+
+
 
 
 # Notes from the Author
