@@ -50,7 +50,13 @@ The intro and conclusion pages have been fully documented, and one of each of th
 The primary function of .css files in this application is to load the maps.  Each stop-connector component has its own .css file that almost exclusively serves to place the map images and reposition the buttons at the bottom of the window.  CSS is used minimally throughout the application since there are so many variants of mobile screen sizes, so a certain degree of imperfection is expected on some pages depending on the screen size of the viewing device.
 
 
+## Potential Future Features
+As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
+    - Perfectly sized images that are responsive to every possible screen size
+    - Location services that let a visitor know when they have reached a destination
+    - A "Learn More" feature that would allow visitors to view more information about a stop or topic
 
+Again, all of these are "nice to have's" and not "need to have's" and could be implemented in the future by a contracted or full-time developer.
 
 
 # Notes from the Author
