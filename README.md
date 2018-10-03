@@ -16,34 +16,34 @@ The .js files are relatively flat and are relatively technically simple.  There 
     - HomePage.js
     - Fin.js
 2. Audio content pages that present the tour
-  - Den.js (fully documented)
-  - Drum.js
-  - GW.js
-  - GW2.js
-  - Hub.js
-  - MGH.js
-  - Quad.js
-  - RS.js
-  - RV.js
-  - Suzz.js
-  - WC.js
-  - Wet.js
+    - Den.js (fully documented)
+    - Drum.js
+    - GW.js
+    - GW2.js
+    - Hub.js
+    - MGH.js
+    - Quad.js
+    - RS.js
+    - RV.js
+    - Suzz.js
+    - WC.js
+    - Wet.js
 3. Connecting pages that display maps
-  - DENtoGW2.js (fully documented)
-  - DRUMtoRV.js
-  - GW2toWC.js
-  - GWtoRS.js
-  - HUBtoWET.js
-  - MGHtoDRUM.js
-  - QUADtoDEN.js
-  - RStoSUZZ.js
-  - RVtoHUB.js
-  - SUZZtoMGH.js
-  - WETtoQUAD.js
+    - DENtoGW2.js (fully documented)
+    - DRUMtoRV.js
+    - GW2toWC.js
+    - GWtoRS.js
+    - HUBtoWET.js
+    - MGHtoDRUM.js
+    - QUADtoDEN.js
+    - RStoSUZZ.js
+    - RVtoHUB.js
+    - SUZZtoMGH.js
+    - WETtoQUAD.js
 
-The App.js file sets the endpoints and initialized the webpage instance.
+The App.js file sets the endpoints and initializes the webpage instance.
 
-The intro and conclusion pages have been fully documented, and one of each of the content and connection pages have been fully documented.  Each other .js file is identical (except for slightly different source urls), and can be assumed to be identical.
+The intro and conclusion pages have been fully documented, and one of each of the content and connection pages have been fully documented.  Each other .js file is identical to those with similar purposes (except for slightly different source urls).
 
 
 # Notes from the Author
