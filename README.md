@@ -52,9 +52,9 @@ The primary function of .css files in this application is to load the maps.  Eac
 
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
-    - Perfectly sized images that are responsive to every possible screen size
-    - Location services that let a visitor know when they have reached a destination
-    - A "Learn More" feature that would allow visitors to view more information about a stop or topic
+    - Perfectly sized images that are responsive to every possible screen size.  
+    - Location services that let a visitor know when they have reached a destination.  
+    - A "Learn More" feature that would allow visitors to view more information about a stop or topic.  
 
 Again, all of these are "nice to have's" and not "need to have's" and could be implemented in the future by a contracted or full-time developer.
 
