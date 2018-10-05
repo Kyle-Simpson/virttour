@@ -17,34 +17,40 @@ The .js files are relatively flat and are relatively technically simple.  There 
     - HomePage.js
     - Fin.js
 2. Audio content pages that present the tour
-    - Den.js (fully documented)
-    - Drum.js
-    - GW.js
-    - GW2.js
-    - Hub.js
-    - MGH.js
-    - Quad.js
-    - RS.js
-    - RV.js
-    - Suzz.js
-    - WC.js
-    - Wet.js
+    - Den.js (Denny Hall) (fully documented) 
+    - Drum.js (Drumheller Fountain)
+    - GW.js (George Washington Statue [the first time])
+    - GW2.js (George Washington Statue [the second time])
+    - Hub.js (Husky Union Building)
+    - MGH.js (Mary Gates Hall)
+    - Quad.js (Liberal Arts Quadrangle)
+    - RS.js (Red Square)
+    - RV.js (Rainier Vista)
+    - Suzz.js (Suzzalo Library)
+    - WC.js (West Campus)
+    - Wet.js (Wǝɫǝbʔaltxʷ)
 3. Connecting pages that display maps
-    - DENtoGW2.js (fully documented)
-    - DRUMtoRV.js
-    - GW2toWC.js
-    - GWtoRS.js
-    - HUBtoWET.js
-    - MGHtoDRUM.js
-    - QUADtoDEN.js
-    - RStoSUZZ.js
-    - RVtoHUB.js
-    - SUZZtoMGH.js
-    - WETtoQUAD.js
+    - DENtoGW2.js (Denny Hall to George Washington Statue [the second time]) (fully documented)
+    - DRUMtoRV.js (Drumheller Fountain to Rainier Vista)
+    - GW2toWC.js (George Washington [the second time] to West Campus)
+    - GWtoRS.js (George Washington Statue [the first time] to Red Square)
+    - HUBtoWET.js (Husky Union Building to Wǝɫǝbʔaltxʷ)
+    - MGHtoDRUM.js (Mary Gates Hall to Drumheller Fountain)
+    - QUADtoDEN.js (Liberal Arts Quadrangle to Denny Hall)
+    - RStoSUZZ.js (Red Square to Suzzalo Library)
+    - RVtoHUB.js (Rainier Vista to Husky Union Building)
+    - SUZZtoMGH.js (Suzzalo Library to Mary Gates Hall)
+    - WETtoQUAD.js (Wǝɫǝbʔaltxʷ to Liberal Arts Quadrangle)
 
 The App.js file sets the endpoints and initializes the webpage instance.
 
 The intro and conclusion pages have been fully documented, and one of each of the content and connection pages have been fully documented.  Each other .js file is identical to those with similar purposes (except for slightly different source urls).
+
+### Logical Flow Through JS Files
+Since the JS files are so flat it is easy to trace the path through the files.  This section will map the connection between each file (assuming linear navigatio through the application).
+
+HomePage.js -> GW.js -> GWtoRS.js -> RS.js -> RStoSUZZ.js -> SUZZ.js -> SUZZtoMGH.js -> MGH.js -> MGHtoDRUM.js -> DRUM.js -> DRUMtoRV.js -> RV.js -> RVtoHUB.js -> HUB.js -> HUBtoWET.js -> WET.js -> WETtoQUAD.js -> QUAD.js -> QUADtoDEN.js -> DEN.js -> DENtoGW2.js -> GW2.jsGW2toWC.js -> WC.js -> FIN.js
+
 
 ## CSS
 The primary function of .css files in this application is to load the maps.  Each stop-connector component has its own .css file that almost exclusively serves to place the map images and reposition the buttons at the bottom of the window.  CSS is used minimally throughout the application since there are so many variants of mobile screen sizes, so a certain degree of imperfection is expected on some pages depending on the screen size of the viewing device.
