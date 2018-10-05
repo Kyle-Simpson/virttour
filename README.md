@@ -47,7 +47,7 @@ The App.js file sets the endpoints and initializes the webpage instance.
 The intro and conclusion pages have been fully documented, and one of each of the content and connection pages have been fully documented.  Each other .js file is identical to those with similar purposes (except for slightly different source urls).
 
 ### Logical Flow Through JS Files
-Since the JS files are so flat it is easy to trace the path through the files.  This section will map the connection between each file (assuming linear navigatio through the application).
+Since the JS files are so flat it is easy to trace the path through the files.  This section will map the connection between each file (assuming linear navigation through the application).
 
 HomePage.js -> GW.js -> GWtoRS.js -> RS.js -> RStoSUZZ.js -> SUZZ.js -> SUZZtoMGH.js -> MGH.js -> MGHtoDRUM.js -> DRUM.js -> DRUMtoRV.js -> RV.js -> RVtoHUB.js -> HUB.js -> HUBtoWET.js -> WET.js -> WETtoQUAD.js -> QUAD.js -> QUADtoDEN.js -> DEN.js -> DENtoGW2.js -> GW2.jsGW2toWC.js -> WC.js -> FIN.js
 
