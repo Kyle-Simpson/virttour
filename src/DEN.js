@@ -13,7 +13,7 @@ export class DEN extends Component {
                     <source src="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/10%20Denny%20Yard%20v3_mixdown_FNL.mp3?alt=media&token=7d2fb41b-c3e5-4c55-9b7b-65a73bf880ec"></source>
                 </audio><br></br>
                 {/* Static link for audio caption file */}
-                <a href="" style={{'font-family':'BodyFont', 'color':'white'}}><u>Captions</u></a>
+                <a href="https://firebasestorage.googleapis.com/v0/b/virttour-2018.appspot.com/o/10%20Denny%20Yard%20v3_mixdown_FNL.txt?alt=media&token=0c862b52-8d0e-4393-bb11-95ca522e62c0" style={{'font-family':'BodyFont', 'color':'white'}}><u>Captions</u></a>
                 {/* Router tag needed for buttons to link to the correct page */}
                 <Router>
                     <div>
