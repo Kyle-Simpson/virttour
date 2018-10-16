@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
-import './App.css';
+import './App.css'; 
 
 // The order of imports is the order of files that will be accessed when using the website
 // The components with the word "to" in the name are connecting pages that show a map to the next destination
