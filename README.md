@@ -67,9 +67,10 @@ Below are two sets of instructions depending on the operating system you are usi
 
 ### OS X (Mac)
 1. Open the Terminal
-2. Change directory into the desktop
+2. Change directory into the desktop  
   `cd Desktop`
-3. 
+3. Clone the repo
+```git clone *url*```
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
     - Perfectly sized images that are responsive to every possible screen size.  
