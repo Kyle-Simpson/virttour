@@ -63,9 +63,8 @@ To perform maintenance on the website, you will need a few things:
 3. Administrator privileges on the computer you're using
 4. NPM (https://www.npmjs.com/get-npm)
 
-Below are two sets of instructions depending on the operating system you are using.
+The instructions below will work whether you're using OS X (Mac) or Windows.  Be sure to follow the commands strictly as there are certain syntax necessities that will cause the command to fail if not input exactly.
 
-### OS X (Mac)
 1. Open the Terminal.
 2. Change directory into the desktop `cd Desktop`.
 3. Clone the repo `git clone https://github.com/Kyle-Simpson/virttour.git`.
@@ -73,7 +72,7 @@ Below are two sets of instructions depending on the operating system you are usi
 5. Open your code editor and open the file you wish to change.
 6. Make the changes you wish to make and save the file.
 
-<> What is below may not be correct since the team may want a tar or zip file of the application.  We may just be able to make the change and then zip the folder.  We may also have to deploy first so we have the gh-pages version of the website, and then sip the folder.
+<!-- What is below may not be correct since the team may want a tar or zip file of the application.  We may just be able to make the change and then zip the folder.  We may also have to deploy first so we have the gh-pages version of the website, and then sip the folder. -->
 
 7. Return to the terminal and type `npm run build`.
   - Note: we are using GitHub Pages to host some of the code.  The command `build` is specified in the package.json file and tells npm to compile all of the files.
