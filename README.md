@@ -56,11 +56,11 @@ HomePage.js -> GW.js -> GWtoRS.js -> RS.js -> RStoSUZZ.js -> SUZZ.js -> SUZZtoMG
 The primary function of .css files in this application is to load the maps.  Each stop-connector component has its own .css file that almost exclusively serves to place the map images and reposition the buttons at the bottom of the window.  CSS is used minimally throughout the application since there are so many variants of mobile screen sizes, so a certain degree of imperfection is expected on some pages depending on the screen size of the viewing device.
 
 
-## Maintenance and Updates
+## Maintenance and Updates (for Admissions Staff)
 To perform maintenance on the website, you will need a few things:
 1. A code editor of your choice (Visual Studio Code, Atom, Sublime, etc.)
 2. Internet access
-3. Administrator privileges on the account you're using
+3. Administrator privileges on the computer you're using
 4. NPM (https://www.npmjs.com/get-npm)
 
 Below are two sets of instructions depending on the operating system you are using.
@@ -72,8 +72,11 @@ Below are two sets of instructions depending on the operating system you are usi
 4. Change directory into the folder we just made `cd virttour`.
 5. Open your code editor and open the file you wish to change.
 6. Make the changes you wish to make and save the file.
+
+<> What is below may not be correct since the team may want a tar or zip file of the application.  We may just be able to make the change and then zip the folder.  We may also have to deploy first so we have the gh-pages version of the website, and then sip the folder.
+
 7. Return to the terminal and type `npm run build`.
-  - Note: we are using GitHub Pages to host some of the code.  The command `run build` is specified in the package.json file and tells npm to compile all of the files.
+  - Note: we are using GitHub Pages to host some of the code.  The command `build` is specified in the package.json file and tells npm to compile all of the files.
 8. Type `npm run deploy`.
   - Note: this is partially redundant since we have specified that the `deploy` command will build the project as well.  
 Our changes have now been built and deployed, now we just need to push our changes back up to GitHub.
@@ -81,6 +84,8 @@ Our changes have now been built and deployed, now we just need to push our chang
 10. Then type `git commit -m "Maintenance changes"`.
   - Note: there may be an issue asking you to identify yourself as an author of the changes.  If so, follow the instructions given, then redo this step.
 11. Finally, `git push origin master`.
+
+We have now successfully rebuilt the application.  Now that the changes are fixed, contact the web team to have them put the new version of the website onto the Admissions server.
 
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
