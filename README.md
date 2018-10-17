@@ -17,7 +17,7 @@ The .js files are relatively flat and are relatively technically simple.  There 
     - HomePage.js
     - Fin.js
 2. Audio content pages that present the tour
-    - Den.js (Denny Hall) (fully documented) 
+    - Den.js (Denny Hall) (fully documented)
     - Drum.js (Drumheller Fountain)
     - GW.js (George Washington Statue [the first time])
     - GW2.js (George Washington Statue [the second time])
@@ -56,6 +56,20 @@ HomePage.js -> GW.js -> GWtoRS.js -> RS.js -> RStoSUZZ.js -> SUZZ.js -> SUZZtoMG
 The primary function of .css files in this application is to load the maps.  Each stop-connector component has its own .css file that almost exclusively serves to place the map images and reposition the buttons at the bottom of the window.  CSS is used minimally throughout the application since there are so many variants of mobile screen sizes, so a certain degree of imperfection is expected on some pages depending on the screen size of the viewing device.
 
 
+## Maintenance and Updates
+To perform maintenance on the website, you will need a few things:
+1. A code editor of your choice (Visual Studio Code, Atom, Sublime, etc.)
+2. Internet access
+3. Administrator privileges on the account you're using
+4. NPM (https://www.npmjs.com/get-npm)
+
+Below are two sets of instructions depending on the operating system you are using.
+
+### OS X (Mac)
+1. Open the Terminal
+2. Change directory into the desktop
+  `cd Desktop`
+3. 
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
     - Perfectly sized images that are responsive to every possible screen size.  

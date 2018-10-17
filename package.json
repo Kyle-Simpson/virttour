@@ -1,11 +1,11 @@
 {
   "name": "virttour",
-  "homepage":"http://staff.washington.edu/kes97/cvp/virttour/",
+  "homepage": "http://staff.washington.edu/kes97/cvp/virttour/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",
-    "firebase": "^5.4.0",
+    "firebase": "^5.5.2",
     "gh-pages": "^2.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy":"npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
