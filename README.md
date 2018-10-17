@@ -66,11 +66,22 @@ To perform maintenance on the website, you will need a few things:
 Below are two sets of instructions depending on the operating system you are using.
 
 ### OS X (Mac)
-1. Open the Terminal
-2. Change directory into the desktop  
-  `cd Desktop`
-3. Clone the repo
-```git clone *url*```
+1. Open the Terminal.
+2. Change directory into the desktop `cd Desktop`.
+3. Clone the repo `git clone https://github.com/Kyle-Simpson/virttour.git`.
+4. Change directory into the folder we just made `cd virttour`.
+5. Open your code editor and open the file you wish to change.
+6. Make the changes you wish to make and save the file.
+7. Return to the terminal and type `npm run build`.
+  - Note: we are using GitHub Pages to host some of the code.  The command `run build` is specified in the package.json file and tells npm to compile all of the files.
+8. Type `npm run deploy`.
+  - Note: this is partially redundant since we have specified that the `deploy` command will build the project as well.  
+Our changes have now been built and deployed, now we just need to push our changes back up to GitHub.
+9. Still in the terminal, type `git add .` (don't forget the period!).
+10. Then type `git commit -m "Maintenance changes"`.
+  - Note: there may be an issue asking you to identify yourself as an author of the changes.  If so, follow the instructions given, then redo this step.
+11. Finally, `git push origin master`.
+
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
     - Perfectly sized images that are responsive to every possible screen size.  
