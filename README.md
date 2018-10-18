@@ -136,12 +136,12 @@ IF we are changing the font of the sub-headers (which are not currently utilized
 Now that we know which we want to change, you will need to make one very basic edit to one of the lines boxed below.
 ![image of css file](./maintenanceImages/cssEdits2.png)
 
-Again, you will only want to change one of these lines, so reference the IF statements above to verify.
+Again, you will only want to change one of these lines, so only change the line of the `@font-face` you want to update.
 
-Now is when the EXACT font file name is important.  On the line you want to change, delete what is inside the double quotes, and replace it with `./fonts/INSERT-EXACT-FILENAME-HERE`.  You will not need to add dashes between the words in the file name like I did in this example.
+Now is when the EXACT font file name is important.  On the line you want to change, delete what is inside the double quotes, and replace it with `./fonts/INSERT-EXACT-FILENAME-HERE`.  You will not need to add dashes between the words in the file name like I did in this example, and be sure to keep the double quotes.
 
 Recap:
-We first downloaded the font file.  Then, we saved the font file within the `fonts` folder that is nested within the `virttour` folder.  Next, we identified the line of code we wanted to change by remembering the use of the font we downloaded.  Then, we made the change and saved the file.  Now that we saved the file, we can return to Step 7 of the maintenance instructions above to save and deploy your changes.
+We first downloaded the font file.  Then, we moved the font file within the `fonts` folder that is nested within the `virttour` folder.  Next, we identified the line of code we wanted to change by remembering the use of the font we downloaded (header, sub-header, or body).  Then, we made the change and saved the file.  Now that we saved the file, we can return to Step 7 of the maintenance instructions above to save and deploy your changes.
 
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
