@@ -99,6 +99,18 @@ To change any of the text on the webpage, the only lines you will want to edit a
 
 You can simply delete the text you want to replace and retype the new text.  Once you're done making edits, return to Step 7 of the maintenance instructions above to save and deploy your changes.  
 
+#### 2. Updating a Map Image
+This is the most challenging edit to make since you will first need to create the new image, send it to the web team to have them host the image (in order to get the URL for the image), and then make the change in the code.  This step will assume that you have already created the image, sent it to the web team, and received the URL.
+
+You will only need to make one change to the code to change the map image.  Below is a screenshot of what the file will, more or less, look like.
+![image of map code](./maintenanceImages/mapChange1.png)
+
+The only line you will need to alter are boxed in red below.
+
+![image of map code](./maintenanceImages/mapChange2.png)
+
+Simply replace the text that is inside the double quotes with the URL the web team sent.  Once you're done making these edits, return to Step 7 of the maintenance instructions above to save and deploy your changes.
+
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
     - Perfectly sized images that are responsive to every possible screen size.  
