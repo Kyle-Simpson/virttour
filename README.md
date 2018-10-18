@@ -1,9 +1,9 @@
 #Table of Contents
-1. [General Information](#General Information)
-2. [Technical Documentation](#Technical Documentation)
-  2.1. [Javascript and HTML](#Javascript and HTML)
-    2.1.1. [Logical Flow Through JS Files](#Logical Flow Through JS Files)
-  2.2. [CSS](#CSS)
+1. [General Information](https://github.com/Kyle-Simpson/virttour#general-information)
+2. [Technical Documentation](https://github.com/Kyle-Simpson/virttour#technical-documentation)
+  2.1. [Javascript and HTML](https://github.com/Kyle-Simpson/virttour#javascript-and-html)
+    2.1.1. [Logical Flow Through JS Files](https://github.com/Kyle-Simpson/virttour#logical-flow-through-js-files)
+  2.2. [CSS](https://github.com/Kyle-Simpson/virttour#css)
 
 # General Information
 This website was created by request of Tamara Long to replace the old Guidebook application that previously hosted UW's virtual campus tour.
