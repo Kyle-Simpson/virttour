@@ -93,10 +93,12 @@ I anticipate that the most common change would be to the wording of a page in th
 We are going to use HomePage.js as our example file.  This is the first page a visitor sees when they reach the website.  Below is a screenshot of what the file will, more or less, look like.  
 ![image of HomePage.js](./maintenanceImages/homepage1.png)
 
-To change any of the text on the webpage, the only lines you will want to edit are boxed below in red.
+To change any of the text on the webpage, the only lines you will want to edit are boxed below in red.  
+
 ![image of HomePage.js](./maintenanceImages/homepage2.png)
 
-You can simply delete the text you want to replace and retype the new text.  Once you're done making edits, return to the maintenance instructions above to save and deploy your changes.
+You can simply delete the text you want to replace and retype the new text.  Once you're done making edits, return to Step 7 of the maintenance instructions above to save and deploy your changes.  
+
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
     - Perfectly sized images that are responsive to every possible screen size.  
