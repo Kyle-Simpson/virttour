@@ -2,7 +2,7 @@
 1. [General Information](https://github.com/Kyle-Simpson/virttour#general-information)  
 2. [Technical Documentation](https://github.com/Kyle-Simpson/virttour#technical-documentation)  
   2.1. [Javascript and HTML](https://github.com/Kyle-Simpson/virttour#javascript-and-html)  
-    2.1.1. [Logical Flow Through JS Files](https://github.com/Kyle-Simpson/virttour#logical-flow-through-js-files)  
+  &nbsp;&nbsp; 2.1.1. [Logical Flow Through JS Files](https://github.com/Kyle-Simpson/virttour#logical-flow-through-js-files)  
   2.2. [CSS](https://github.com/Kyle-Simpson/virttour#css)  
 
 # General Information
