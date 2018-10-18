@@ -1,4 +1,4 @@
-#Table of Contents
+# Table of Contents
 1. [General Information](https://github.com/Kyle-Simpson/virttour#general-information)  
 2. [Technical Documentation](https://github.com/Kyle-Simpson/virttour#technical-documentation)  
   2.1. [Javascript and HTML](https://github.com/Kyle-Simpson/virttour#javascript-and-html)  
