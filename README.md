@@ -4,6 +4,13 @@
   2.1. [Javascript and HTML](https://github.com/Kyle-Simpson/virttour#javascript-and-html)  
   &nbsp;&nbsp; 2.1.1. [Logical Flow Through JS Files](https://github.com/Kyle-Simpson/virttour#logical-flow-through-js-files)  
   2.2. [CSS](https://github.com/Kyle-Simpson/virttour#css)  
+  2.3. [Maintenance & Updates](https://github.com/Kyle-Simpson/virttour#maintenance-and-updates-for-admissions-staff)  
+  &nbsp;&nbsp; 2.3.1. [Common Changes](https://github.com/Kyle-Simpson/virttour#common-changes--how-to-make-them)  
+  &nbsp;&nbsp;&nbsp;&nbsp; 2.3.1.1. [Changing Wording](https://github.com/Kyle-Simpson/virttour#1-changing-wording-of-a-webpage)  
+  &nbsp;&nbsp;&nbsp;&nbsp; 2.3.1.2. [Changing Map Image](https://github.com/Kyle-Simpson/virttour#2-updating-a-map-image)  
+  &nbsp;&nbsp;&nbsp;&nbsp; 2.3.1.3. [Changing Font or Branding](https://github.com/Kyle-Simpson/virttour#3-changing-branding-or-font)  
+  2.4. [Potential Future Features](https://github.com/Kyle-Simpson/virttour#potential-future-features)  
+3. [Notes from the Author](https://github.com/Kyle-Simpson/virttour#notes-from-the-author)  
 
 # General Information
 This website was created by request of Tamara Long to replace the old Guidebook application that previously hosted UW's virtual campus tour.
