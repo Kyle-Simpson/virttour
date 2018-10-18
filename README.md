@@ -91,7 +91,7 @@ I anticipate that the most common change would be to the wording of a page in th
 
 #### Changing Wording of a Webpage
 We are going to use HomePage.js as our example file.  This is the first page a visitor sees when they reach the website.  Below is a screenshot of what the file will, more or less, look like.  
-![image of HomePage.js](maintenanceImages/homepage1)
+![image of HomePage.js](./maintenanceImages/homepage1.png)
 
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
