@@ -10,7 +10,8 @@ export class HomePage extends Component {
                 {/* Styles to conform to UW branding.  See HomePage.css for specific branding guidelines */}
                 <h1 style={{ 'font-family': 'HeaderFont', 'color': 'white' }}>Virtual Campus Tour</h1>
                 <p style={{ 'font-family': 'BodyFont', 'color': 'white' }}>Welcome to the University of Washington</p>
-                <p style={{ 'font-family': 'BodyFont', 'color': 'white' }}>To begin the Campus Tour, make your way to the George Washington Statue near West Campus and click Begin</p>
+                <p style={{ 'font-family': 'BodyFont', 'color': 'white' }}
+                    >To begin the Campus Tour, make your way to the George Washington Statue near West Campus and click Begin</p>
                 {/* Router tag needed for buttons to link to the correct page */}
                 <Router>
                     <div>

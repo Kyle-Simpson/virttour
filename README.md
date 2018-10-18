@@ -86,6 +86,13 @@ Our changes have now been built and deployed, now we just need to push our chang
 
 We have now successfully rebuilt the application.  Now that the changes are fixed, contact the web team to have them put the new version of the website onto the Admissions server.
 
+### Common Changes & How to Make Them
+I anticipate that the most common change would be to the wording of a page in the application, updating one of the map images, or changing the branding/font.  For each of these three cases, I will provide exact replication steps of how to make the changes in the code.  If performing this maintenance, I will assume that you have already completed steps 1-5 above.
+
+#### Changing Wording of a Webpage
+We are going to use HomePage.js as our example file.  This is the first page a visitor sees when they reach the website.  Below is a screenshot of what the file will, more or less, look like.
+![image of HomePage.js] (maintenanceImages/homepage1)
+
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
     - Perfectly sized images that are responsive to every possible screen size.  
