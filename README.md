@@ -100,16 +100,48 @@ To change any of the text on the webpage, the only lines you will want to edit a
 You can simply delete the text you want to replace and retype the new text.  Once you're done making edits, return to Step 7 of the maintenance instructions above to save and deploy your changes.  
 
 #### 2. Updating a Map Image
-This is the most challenging edit to make since you will first need to create the new image, send it to the web team to have them host the image (in order to get the URL for the image), and then make the change in the code.  This step will assume that you have already created the image, sent it to the web team, and received the URL.
+This is the most challenging edit to make since you will first need to create the new image, send it to the web team to have them host the image (in order to get the URL for the image), and then make the change in the code.  This step will assume that you have already created the image, sent it to the web team, and received the new URL.
 
 You will only need to make one change to the code to change the map image.  Below is a screenshot of what the file will, more or less, look like.
 ![image of map code](./maintenanceImages/mapChange1.png)
 
-The only line you will need to alter are boxed in red below.
+The only line you will need to alter is boxed in red below.
 
 ![image of map code](./maintenanceImages/mapChange2.png)
 
 Simply replace the text that is inside the double quotes with the URL the web team sent.  Once you're done making these edits, return to Step 7 of the maintenance instructions above to save and deploy your changes.
+
+#### 3. Changing Branding or Font
+If you ever want to change the font, there is only one file you will need to change that will change all of the font throughout the website.  The HomePage.css file holds all of the font definitions for the entire website, so making changes here will be sufficient to change all of the font (Note that this is a slightly different language than the HTML we worked with before).  Before we make changes to the code, you will need to download the font file.  If the font is a UW font, you can download the font file from their branding & assets website.  While you're here, make a note of the purpose of the font, whether it's for headers, sub-headers, or body text.  This distinction will be important later.
+
+Once you have downloaded the font file, we will want to place it in a folder within the Virtual Tour "parent" folder.  
+1. Open the `virttour` folder you downloaded.
+2. Open the `src` folder under the `virttour` folder.
+3. Open the `fonts` folder under the `src` folder.
+4. Drag and drop the font file into this folder.  If there is a conflict with another file named the same thing, overwrite the old file.  
+While you're here, make a note of the exact name of the font's file name INCLUDING any file extension it may have (ex. ttf, otf, ttc).  We will need this name later.
+
+Now that we have the font we want to update, we can make the change in our code. Below is a screenshot of what the HomePage.css file will, more or less, look like.
+![image of css file](./maintenanceImages/cssEdits1.png)
+
+You will see that there are 3 distinct mentions of `@font-face`.  Each of these establishes a different kind of font, and the font we are updating will determine which `@font-face` we will change.
+
+IF we are changing the font of the headers (i.e. the "Virtual Campus Tour" text on the homepage, or the font of the stop name), we want to change the first `@font-face` that establishes the HeaderFont.
+
+IF we are changing the font of the body (i.e. the normal text below the header on the Homepage, or any of the buttons), we want to change the second `@font-face` that establishes the BodyFont.
+
+IF we are changing the font of the sub-headers (which are not currently utilized in the application), we want to change the third `@font-face` that establishes the SubHeaderFont.
+
+
+Now that we know which we want to change, you will need to make one very basic edit to one of the lines boxed below.
+![image of css file](./maintenanceImages/cssEdits2.png)
+
+Again, you will only want to change one of these lines, so reference the IF statements above to verify.
+
+Now is when the EXACT font file name is important.  On the line you want to change, delete what is inside the double quotes, and replace it with `./fonts/INSERT-EXACT-FILENAME-HERE`.  You will not need to add dashes between the words in the file name like I did in this example.
+
+Recap:
+We first downloaded the font file.  Then, we saved the font file within the `fonts` folder that is nested within the `virttour` folder.  Next, we identified the line of code we wanted to change by remembering the use of the font we downloaded.  Then, we made the change and saved the file.  Now that we saved the file, we can return to Step 7 of the maintenance instructions above to save and deploy your changes.
 
 ## Potential Future Features
 As a full-time student, there are some features that I do not have the time to implement.  These features and edits would add to the aesthetic and overall functionality of the application, but the application is completely functional and usable without these features.  
