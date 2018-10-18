@@ -1,3 +1,10 @@
+#Table of Contents
+1. [General Information](#General Information)
+2. [Technical Documentation](#Technical Documentation)
+  2.1. [Javascript and HTML](#Javascript and HTML)
+    2.1.1. [Logical Flow Through JS Files](#Logical Flow Through JS Files)
+  2.2. [CSS](#CSS)
+
 # General Information
 This website was created by request of Tamara Long to replace the old Guidebook application that previously hosted UW's virtual campus tour.
 
